@@ -1,0 +1,67 @@
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: .75em;
+    width: 100%;
+    padding: 0 1em 0;
+}
+
+.info h1,
+.info h3,
+.info h4 {
+    text-align: center;
+}
+
+.info h3 {
+    color: #F47D27;
+    margin-top: -.5em;
+}
+
+.info h4 {
+    font-weight: 400;
+}
+
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5em;
+    margin-top: 1.5em;
+}
+
+.buttons button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .5em;
+    min-width: 150px;
+    min-height: 40px;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #282828;
+    background-color: whitesmoke;
+    border-radius: 6.7px;
+    border: none;
+    box-shadow: 0 0 3px #808080;    
+}
+
+.buttons button:hover {  
+    box-shadow: 0 0 1px #808080;
+    transition: .2s ease;
+    cursor: pointer;    
+    opacity: .9;
+}
+
+.buttons button:active {
+    box-shadow: 0 0 1px #c4c4c4;
+    opacity: .75;
+}
+
+
+
+.buttons .linkedIn {
+    background-color: #297FE5;
+    color: whitesmoke;
+    box-shadow: 0 0 3px #282828;
+}

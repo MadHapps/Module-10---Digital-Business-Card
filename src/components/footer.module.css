@@ -1,0 +1,30 @@
+.footer {
+    flex-shrink: 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 1.75em;
+    width: 100%;
+    margin-top: 2em;
+    padding-block: 1em;
+    background-color: gray;
+}
+
+.footer button {
+    width: 1.5rem;
+    height: 1.375rem;
+    background: none;
+    text-decoration: none;
+    border: none;
+}
+
+.footer button:hover {
+    cursor: pointer;
+    opacity: .75;
+}
+
+.footer button:active {
+    opacity: .5;
+    transition: .6 ease;
+}

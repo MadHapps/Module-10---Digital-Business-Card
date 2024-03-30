@@ -1,11 +1,17 @@
 import './App.css'
+import Info from './components/info.jsx'
+import Content from './components/content.jsx'
+import Footer from './components/footer.jsx'
 
 function App() {
 
   return (
-    <>
-      <h1>My Digital Business Card</h1>
-    </>
+      <div className='app-wrapper'>
+        <img className='headerPortrait' src={"./src/assets/joey_beach_bw.jpg"} />
+        <Info />
+        <Content />
+        <Footer />
+      </div>
   )
 }
 
