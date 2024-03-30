@@ -21,7 +21,7 @@
   transition: .3s ease;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 410px) {
   .headerPortrait {
     margin-top: 0;
     border-radius: 0;
