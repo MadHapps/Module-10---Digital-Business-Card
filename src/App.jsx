@@ -7,7 +7,7 @@ function App() {
 
   return (
       <div className='app-wrapper'>
-        <img className='headerPortrait' src={"./src/assets/joey_beach_bw.jpg"} />
+        <img className='headerPortrait' src={"../src/assets/joey_beach_bw.jpg"} />
         <Info />
         <Content />
         <Footer />
