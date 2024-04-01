@@ -6,9 +6,10 @@
     justify-content: center;
     gap: 1.75em;
     width: 100%;
+    min-height: 4rem;
     margin-top: 2em;
     padding-block: 1em;
-    background-color: gray;
+    background-color: #D5D4D8;
 }
 
 .footer button {
@@ -17,14 +18,19 @@
     background: none;
     text-decoration: none;
     border: none;
+    transition: .15s ease;
+}
+
+.footer > button > i {
+    font-size: 2rem;
+    color: #918E9B;
 }
 
 .footer button:hover {
     cursor: pointer;
-    opacity: .75;
+    opacity: .65;
 }
 
 .footer button:active {
-    opacity: .5;
-    transition: .6 ease;
+    opacity: .35;
 }
